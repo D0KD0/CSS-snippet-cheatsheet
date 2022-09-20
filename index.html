@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Snippet Cheatsheet</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1>CSS Snippet Cheatsheet</h1>
+    <p>
+        Ever have trouble recalling the exact syntax for your favorite CSS code? Give it a permanent home and add it to this page! Select any snippet below and it'll automatically select all of the code for you to copy.
+    </p>
+  </header>
+
+  <!-- Body -->
+  <main>
+    <!-- Product Cards -->
+    <!-- card#1 -->
+    <div class="card-column">
+        <figure class="middle-card">
+            <h2 class="card-header">Flexbox row</h2>
+        </figure>
+        <div class="card-body">
+            <p>Use this to create a Flexbox row layout</p>
+            <div class="core-card">
+                <p>
+                .row {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap:
+                  }
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- card#2 -->
+    <div class="card-column">
+        <figure class="middle-card">
+            <h2 class="card-header">Flexbox column</h2>
+        </figure>
+        <div class="card-body">
+            <p>Use this to create a Flexbox column layout</p>
+            <div class="core-card">
+                <p>
+                .column {
+                    display: flex;
+                    flex-direction: column
+                }
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- card#3 -->
+    <div class="card-column">
+        <figure class="middle-card">
+            <h2 class="card-header">CSS Grid Layout</h2>
+        </figure>
+        <div class="card-body">
+            <p>Build a 12-column layout using CSS Grid</p>
+            <div class="core-card">
+                <p>.
+                .grid {
+                    display: grid;
+                    width: 100%;
+                    grid-template-columns: repeat (12, 1fr);
+                }
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- card#4 -->
+    <div class="card-column">
+        <figure class="middle-card">
+            <h2 class="card-header">Linear Gradients</h2>
+        </figure>
+        <div class="card-body">
+            <p>This will create a background linear gradient from top to bottom</p>
+            <div class="core-card">
+                <p>
+                .linear-gradient-background {
+                    background-image: linear-gradient (
+                        rgba(232, 102, 236, 0.3) 0%,
+                        rgba(232, 102, 236, 0.3) 100%
+                    );
+                }
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- card#5 -->
+    <div class="card-column">
+        <figure class="middle-card">
+            <h2 class="card-header">Box Transition Glow</h2>
+        </figure>
+        <div class="card-body">
+            <p>Use transition and box shadows to glow on hoaver</p>
+            <div class="core-card">
+                <p>
+                .core-card .card-header {
+                border-radius: 8px;
+                transition: all 0.5s ease-in-out;
+                }
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- card#6 -->
+    <div class="card-column">
+        <figure class="middle-card">
+            <h2 class="card-header">Overlay Card with Title</h2>
+        </figure>
+        <div class="card-body">
+            <p>Use position properties and negative margins to raise elements higher than their natural starting point.</p>
+            <div class="core-card">
+                <p>
+                .card-header {
+                    position: relative;
+                    margin-top: -20px;
+                }
+
+                </p>
+            </div>
+        </div>
+    </div>
+
+    </main>
+
+  <!-- Footer -->
+  <footer>
+    <h3>
+      Made with ❤️ and CSS
+    </h3>
+  </footer>
+</body>
+
+</html>
